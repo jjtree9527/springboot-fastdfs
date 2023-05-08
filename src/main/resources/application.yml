@@ -1,0 +1,17 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: springboot-fastdfs
+
+fdfs:
+  so-timeout: 1500
+  connect-timeout: 600
+  thumb-image:
+    width: 150
+    height: 150
+  tracker-list:
+    - upload.jxsliot.cn:22122
+  web-server-url: http://upload.jxsliot.cn/
+
